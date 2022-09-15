@@ -5,7 +5,7 @@ import json
 from bs4 import BeautifulSoup
 
 def getHeadlines():
-    response = requests.get("https://gnews.io/api/v4/top-headlines?token=a5a053e764b6a116dd8b8b60c1cc658e&lang=en")
+    response = requests.get("https://gnews.io/api/v4/top-headlines?token=[TOKEN_HERE]&lang=en")
     if response.status_code == 200:
         data = json.loads(response.text)
         articles = data['articles']
