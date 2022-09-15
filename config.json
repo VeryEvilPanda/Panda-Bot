@@ -1,7 +1,7 @@
 {
-    "owner": 554343055029698571,
+    "owner": owner_id,
     "dev": true,
-    "test_channels": [777652457059647498, 1002963156273999884],
+    "test_servers": [test_server_one, test_server_two],
     "prefix": "-",
     "status": "Online",
     "playing": "with code :)",
