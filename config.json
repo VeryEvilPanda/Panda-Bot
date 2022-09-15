@@ -1,7 +1,7 @@
 {
     "owner": owner_id,
     "dev": true,
-    "test_servers": [test_server_one, test_server_two],
+    "test_channels": [server_id, server_id],
     "prefix": "-",
     "status": "Online",
     "playing": "with code :)",
