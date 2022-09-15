@@ -1,0 +1,31 @@
+{
+    "owner": 554343055029698571,
+    "dev": true,
+    "test_channels": [777652457059647498, 1002963156273999884],
+    "prefix": "-",
+    "status": "Online",
+    "playing": "with code :)",
+    "cogs": {
+        "suggestions": {
+            "active": true
+        },
+        "starboard": {
+            "active": true
+        },
+        "utils": {
+            "active": true
+        },
+        "translate": {
+            "active": true
+        },
+        "qrcodes": {
+            "active": true
+        },
+        "reminders": {
+            "active": true
+        },
+        "news": {
+            "active": true
+        }
+    }
+}
