@@ -4,7 +4,7 @@
 - Repository for my WIP all-purpose Discord bot.
 - If you believe my code could be made more efficient, I'm ngl I don't care lmao.
 - Please note that some features are currently WIP and may not work correctly.
-- The `/headlines` command currently uses a webscraper to get BBC news stories. There is an alternative, using the Gnews api, but you need to get a (free) API key for this.
+- The `/headlines` command currently uses a webscraper to get BBC news stories. There is alternative code available using the Gnews api instead, but you need to get a (free) API key for this.
 
 ## Environment Variables
 
