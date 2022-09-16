@@ -35,7 +35,7 @@ def getHeadlines2():
     return stories_list
 
 def getCoords(city):
-    response = requests.get("http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&appid=e341015064a54bca76455796aa734591")
+    response = requests.get("http://api.openweathermap.org/geo/1.0/direct?q=" + city + "&appid=[YOUR API KEY]")
     if response.status_code == 200:
         data = json.loads(response.text)
         if data == []:
@@ -49,7 +49,7 @@ def getCoords(city):
         return False, response.status_code
 
 def getWeather(lat, lon):
-    response = requests.get("https://api.openweathermap.org/data/2.5/weather?lat=" + str(lat) + "&lon=" + str(lon) + "&units=metric&appid=e341015064a54bca76455796aa734591")
+    response = requests.get("https://api.openweathermap.org/data/2.5/weather?lat=" + str(lat) + "&lon=" + str(lon) + "&units=metric&appid=[YOUR API KEY]")
     if response.status_code == 200:
         data = json.loads(response.text)
         general = data['weather'][0]['main']
