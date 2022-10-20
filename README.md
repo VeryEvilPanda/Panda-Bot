@@ -2,10 +2,10 @@
 # Panda Bot 
 
 <p align="center">
-  <a href="https://github.com/VeryEvilPanda/Panda-Bot" target="_blank">
+  <a href="https://choosealicense.com/licenses/mit/" target="_blank">
     <img alt="license" src="https://img.shields.io/github/license/veryevilpanda/Panda-Bot"/>
   </a>
-  <a href="https://github.com/VeryEvilPanda/Panda-Bot" target="_blank">
+  <a href="https://www.python.org/" target="_blank">
     <img alt="top language" src="https://img.shields.io/github/languages/top/veryevilpanda/Panda-Bot"/>
   </a>
   <a href="https://discord.gg/Zu6pDEBCjY" target="_blank">
