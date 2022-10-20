@@ -10,6 +10,7 @@
   </a>
   <a href="https://discord.gg/Zu6pDEBCjY" target="_blank">
     <img alt="discord" src="https://img.shields.io/discord/1002963156273999884?label=discord"/>
+  </a>
 </p>
 
 - Repository for my WIP all-purpose Discord bot.
