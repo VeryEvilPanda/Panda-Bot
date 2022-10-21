@@ -34,6 +34,7 @@ To run this project, you will need to add the following environment variables to
 ## Installation
 - First of all, make sure you have the latest version of Python installed. 
 - Next install the following modules which are required for all aspects of the bot to function.
+
 For bot:
 ```bash
   pip3 install disnake
