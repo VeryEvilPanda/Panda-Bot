@@ -70,10 +70,10 @@ class starboardCog(commands.Cog):
 
     @starboardchannel.sub_command()
     async def remove(self, inter):
-        bot = self.bot
         """
         Removes the starboard channel (admin)
         """
+        bot = self.bot
         if inter.user.guild_permissions.administrator == True:
             servers = checkServers()
             if str(inter.guild.id) in servers:
