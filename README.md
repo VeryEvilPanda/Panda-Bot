@@ -73,7 +73,7 @@ NEWS_API_KEY=[your news api key]
 
 ## Support
 
-There is no active support for this discord bot. However you can contact me on Discord: EvilPanda#7288.
+There is no guaranteed active support for this discord bot. However, join [the discord](https://discord.gg/Zu6pDEBCjY) and ask any questions!
 
 
 ## License
