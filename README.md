@@ -18,6 +18,7 @@
 - Please note that some features are currently WIP and may not work correctly.
 - The `/headlines` command has an option to use Gnews API, which requires a (free) API key from [gnews.io](https://gnews.io/).
 - The `/weather` command also requires a free API key, from [openweathermap.org](https://openweathermap.org/).
+- `Main` branch is the code currently in use by BotPanda. `Dev` branch is any code in development, usually used by Dev Bot.
 
 
 ## Environment Variables
