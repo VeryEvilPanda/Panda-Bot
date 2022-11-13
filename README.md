@@ -14,7 +14,7 @@
 </p>
 
 - Repository for my WIP all-purpose Discord bot.
-- If you believe my code could be made more efficient, I'm ngl I don't care lmao.
+- If you believe my code could be made more efficient, contact me through the support Discord. However, there is no guarantee I will fix it lol.
 - Please note that some features are currently WIP and may not work correctly.
 - The `/headlines` command has an option to use Gnews API, which requires a (free) API key from [gnews.io](https://gnews.io/).
 - The `/weather` command also requires a free API key, from [openweathermap.org](https://openweathermap.org/).
