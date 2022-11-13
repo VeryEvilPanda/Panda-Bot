@@ -12,7 +12,7 @@
     <img alt="discord" src="https://img.shields.io/discord/1002963156273999884?label=discord"/>
   </a>
 </p>
-- PLEASE USE [this new version]https://github.com/AIO-Bot-Devs/AIO-Bot) instead! It is now a shared project
+- PLEASE USE [this new version](https://github.com/AIO-Bot-Devs/AIO-Bot) instead! It is now a shared project
 - Repository for my WIP all-purpose Discord bot.
 - If you believe my code could be made more efficient, contact me through the support Discord. However, there is no guarantee I will fix it lol.
 - Please note that some features are currently WIP and may not work correctly.
