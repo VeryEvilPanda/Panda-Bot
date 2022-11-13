@@ -5,6 +5,8 @@ import os
 from dotenv import load_dotenv
 import json
 
+
+#Loads the config file
 def getConfig():
     with open('config.json', 'r') as f:
         data = json.load(f)
@@ -22,11 +24,12 @@ def getConfig():
     return owner, dev, test_guilds, prefix, status, activity, uptime_channel, colours, cogs
 
 
-#Define intents for bot (make these more specific later)
+#Define intents for bot (make these more specific later so bot doesn't require unnecessary intents/permissions)
 intents = disnake.Intents.default()
 intents.message_content = True
 intents.members = True
 intents.reactions = True
+
 
 #Get config for bot
 config = getConfig()
@@ -50,6 +53,7 @@ else:
         activity = disnake.Activity(name=config[5])
     )
 
+
 #Setup global variables
 bot.colour_neutral = int(config[7]["neutral"], base=16)
 bot.colour_success = int(config[7]["success"], base=16)
@@ -64,7 +68,9 @@ for i in cogs:
     if cogs[i]:
         bot.load_extension(f'cogs.{i}')
 
+
 #Outputs a mesage when bot is online
+#Remove this and replace with an uptime bot at some point - API calls are not recommended in on_ready
 @bot.event
 async def on_ready():
     print("------")
@@ -88,29 +94,7 @@ async def on_ready():
         print("Uptime channel not found")
 
 
-#Make this at some point lol
-# bot.event
-# async def on_message(message):
-#     if message.channel.type == disnake.ChannelType.private and message.author == config[0]:
-#         if message.startswith(f"{config[3]}shutdown"):
-#             await bot.close()
-#         elif message.startswith(f"{config[3]}restart"):
-#             await bot.close()
-#             os.system("python3 main.py")
-#         elif message.startswith(f"{config[3]}ping") or message.startswith(f"{config[3]}latency"):
-#             await message.channel.send(f"Latency: {int(bot.latency * 1000)}ms")
-#         elif message.startswith(f"{config[3]}cog_disable"):
-#             try:
-#                 cog = message.content.split(" ")[1]
-#                 cogs[cog] = False
-#                 bot.unload_extension(f"cogs.{cog}")
-#                 await message.channel.send(f"<:check:1002964750356987935> {cog} cog disabled")
-#             except:
-#                 await message.channel.send(f"<:cross:1002964682585407591> Cog is not enabled/does not exist")
         
-        
-        
-
 
 
 #Make this at some point lol
