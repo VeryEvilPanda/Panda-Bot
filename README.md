@@ -44,7 +44,8 @@ For bot:
 For specific functions:
 ```bash
   pip3 install beautifulsoup4 
-  pip3 install qrcode[pil] 
+  pip3 install qrcode
+  pip3 install pillow
   pip3 install googletrans
   pip3 install requests
 ```
